@@ -22,7 +22,7 @@ class ControllerTest {
     @Order(1)
     void shouldSaveStudent() {
         Student student = new Student();
-        student.setName("AMINA");
+        student.setName("Charlie");
         student.setAddress("Algeria");
 
         studentRepository.save(student);
