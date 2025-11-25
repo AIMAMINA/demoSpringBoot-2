@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "management.endpoints.web.base-path",
+      "type": "java.lang.String",
+      "description": "Base path for actuator endpoints."
+    },
+    {
+      "name": "management.endpoint.prometheus.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enable Prometheus endpoint."
+    },
+    {
+      "name": "management.endpoints.web.exposure.include",
+      "type": "java.lang.String",
+      "description": "Endpoints to expose."
+    }
+  ]
+}
